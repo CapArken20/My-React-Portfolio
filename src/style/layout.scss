@@ -1,0 +1,23 @@
+.page-wrapper {
+    background-color: $offwhite;
+    @include page-height();
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .img-wrapper {
+        display: flex;
+        align-items: center;
+        img {
+            width: 100%;
+            @include page-height();
+        }
+    }
+
+    .content-wrapper {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

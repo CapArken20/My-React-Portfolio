@@ -176,6 +176,7 @@ export default class PortfolioForm extends Component {
                 [this.thumbRef, this.bannerRef, this.logoRef].forEach(ref => {
                     ref.current.dropzone.removeAllFiles();
                 });
+                
             }).catch(error => {
                 console.log("portfolioFrom handleSubmit error", error)
             })

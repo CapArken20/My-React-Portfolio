@@ -12,8 +12,8 @@
       align-items: center;
 
       .title {
-        font-size: 1.5em;
         color: $offwhite;
+        font-size: 1.5em;
       }
 
       .actions {
@@ -23,9 +23,9 @@
 
         .action-icon {
           cursor: pointer;
-          font-size: 1.5em;
           color: $offwhite;
-          transition: 0.25s ease-in-out;
+          font-size: 1.5em;
+          transition: 0.5s ease-in-out;
 
           &:hover {
             color: $warning;
